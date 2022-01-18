@@ -1,0 +1,23 @@
+.properties-panel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 260px;
+    z-index: 10;
+    border-left: 1px solid #ccc;
+    overflow: auto;
+  }
+  
+  .properties-panel:empty {
+    display: none;
+  }
+  
+  .properties-panel > .djs-properties-panel {
+    padding-bottom: 70px;
+    min-height: 100%;
+  }
+
+  .bpmn-icon-task.yellow {
+    color: #ffc800 !important;
+  }
